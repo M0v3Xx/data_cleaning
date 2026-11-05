@@ -12,8 +12,3 @@ This project performs end-to-end data cleaning, exploratory data analysis (EDA),
 - **Exploratory Data Analysis:** Computed feature correlation matrix to identify key price predictors (`engine-size`, `curb-weight`, `horsepower`).
 - **Regression Imputation:** Imputed missing values for continuous variables like `bore` and `horsepower` using Linear Regression models fitted on highly correlated features (e.g., `curb-weight` and `engine-size`).
 - **Price Modeling:** Built a linear model predicting vehicle price based on `engine-size` ($R^2$ baseline evaluation).
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/M0v3Xx/automobile-price-analysis.git](https://github.com/M0v3Xx/automobile-price-analysis.git)
